@@ -136,7 +136,6 @@ footer {
 }
 
 /*   Media Quarry  responsive  custom css  */
-
 @media (max-width: 660px) {
     h1 {
         font-size: 50px;

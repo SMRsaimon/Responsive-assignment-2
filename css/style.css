@@ -44,9 +44,13 @@ h4 {
     color: white;
     border-radius: 14px;
 }
-@media (max-width: 560px) {
+@media (max-width: 660px) {
     h1 {
         font-size: 50px;
+    }
+    .woman,
+    .man {
+        text-align: center;
     }
 }
 

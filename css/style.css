@@ -7,7 +7,8 @@
     margin: 0;
     padding: 0;
 }
-p {
+p,
+label {
     font-family: "Roboto", sans-serif;
     color: gray;
 }
@@ -23,7 +24,6 @@ h1 {
     font-size: 60px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Bebas Neue", cursive;
 }
 h2 {
     font-size: 50px;
@@ -43,15 +43,6 @@ h4 {
     background-color: #a4bc46;
     color: white;
     border-radius: 14px;
-}
-@media (max-width: 660px) {
-    h1 {
-        font-size: 50px;
-    }
-    .woman,
-    .man {
-        text-align: center;
-    }
 }
 
 /* main-----manue start  */
@@ -94,7 +85,6 @@ footer {
 .img-box {
     overflow: hidden;
     background-color: #f1f1f1;
-
     border-radius: 15px;
     margin: 15px;
 }
@@ -108,7 +98,6 @@ footer {
     font-size: 35px;
     font-weight: 300;
     font-family: "Anton", sans-serif;
-    /* font-family: "Roboto", sans-serif; */
 }
 
 .custom-card-body img {
@@ -141,6 +130,23 @@ footer {
     width: 80% !important;
 }
 
+/* log-in section  */
+#log-in {
+    margin-top: 100px;
+}
+
+/*   Media Quarry  responsive  custom css  */
+
+@media (max-width: 660px) {
+    h1 {
+        font-size: 50px;
+    }
+    .woman,
+    .man {
+        text-align: center;
+    }
+}
+
 @media (max-width: 770px) {
     .text-contant {
         text-align: center;
@@ -148,9 +154,4 @@ footer {
     .services-wraper-left {
         order: 2;
     }
-}
-/*   services End  */
-/* log-in section  */
-#log-in {
-    margin-top: 100px;
 }

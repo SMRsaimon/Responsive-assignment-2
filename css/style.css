@@ -1,0 +1,147 @@
+/* @media only screen and (max-width: 1024px) {
+}
+ */
+
+/* google font  */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -3px;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 800px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #363958;
+    letter-spacing: -3px;
+}
+h3 {
+    font-size: 35px;
+    font-weight: 700px;
+    font-family: "Roboto", sans-serif;
+    color: #363958;
+    letter-spacing: -3px;
+}
+h4 {
+    font-size: 30px;
+    font-weight: 700px;
+    font-family: "Roboto", sans-serif;
+    color: #363958;
+    letter-spacing: -0.8px;
+}
+#custom-btn {
+    font-weight: 600;
+    background-color: #a4bc46;
+    color: white;
+    border-radius: 14px;
+}
+@media (max-width: 560px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+/* main-----manue start  */
+
+#menu {
+    background-color: #fffbf0;
+    padding-bottom: 30px;
+}
+
+.custom-nav-wraper a {
+    padding: 10px 30px !important;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+.logo-img {
+    width: 75%;
+}
+
+.logo-wraper {
+    width: 70%;
+}
+
+/* .=====intro image  section  ==== */
+.contant-left {
+    padding-left: 10px;
+}
+.intro-img {
+    width: 80%;
+    margin-left: 5%;
+}
+
+/* =====woman section start ==== */
+.custom-card-body {
+    border: none;
+    border-radius: 10px;
+}
+.img-box {
+    overflow: hidden;
+    background-color: #f1f1f1;
+
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.custom-card-footer {
+    background: none;
+    border-top: none;
+}
+.custom-card-footer > span {
+    color: #fabe4c;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: "Anton", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+}
+
+.custom-card-body img {
+    transition: transform 1s ease;
+    width: 200px;
+    height: 280px;
+    display: block;
+    margin: 10px auto;
+    padding-top: 20px;
+}
+.custom-card-body img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#man-jacket {
+    margin: 110px 0;
+}
+
+/* ======services=== */
+.left-services-contant {
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 98%;
+}
+.left-services-contant img {
+    width: 100px;
+    height: 100px;
+}
+.services-wraper-right img {
+    width: 80% !important;
+}
+
+@media (max-width: 770px) {
+    .text-contant {
+        text-align: center;
+    }
+    .services-wraper-left {
+        order: 2;
+    }
+}
+/*   services End  */

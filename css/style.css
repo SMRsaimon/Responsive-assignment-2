@@ -52,11 +52,11 @@ h4 {
 
 /* main-----manue start  */
 
-#menu,
-footer {
+#menu {
     background-color: rgb(253, 247, 229);
 }
-#home {
+#home,
+footer {
     background-color: #fffbf0;
 }
 
